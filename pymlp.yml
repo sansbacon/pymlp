@@ -1,0 +1,14 @@
+name: pymlp
+channels:
+  - defaults
+dependencies:
+  - python=3.9.6
+  - ipython
+  - numpy
+  - pandas
+  - pytest
+  - bs4
+  - requests
+  - pip>=21.1
+  - pip:
+    - requests-html
